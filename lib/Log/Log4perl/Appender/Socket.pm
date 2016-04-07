@@ -18,7 +18,7 @@ sub new {
         silent_recovery => 0,
         no_warning      => 0,
         PeerAddr        => "localhost",
-        Proto           => 'tcp',
+        #Proto           => 'tcp',
         Timeout         => 5,
         @options,
     };
